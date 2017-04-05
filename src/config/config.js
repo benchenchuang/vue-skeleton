@@ -32,7 +32,7 @@ const config = {
 		[URLNames.LOCALE]: `${process.env.VERSIONED_STATIC_ROOT}locale/{locale}.json`,
 	},
 	properties: {
-		[PropertyNames.DEFAULT_LOCALE]: 'de-de',
+		[PropertyNames.DEFAULT_LOCALE]: 'en-gb',
 		[PropertyNames.AVAILABLE_LOCALES]: ['en-gb', 'de-de'],
 	},
 };
