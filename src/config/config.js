@@ -24,7 +24,7 @@ const config = {
 	},
 	variables: {
 		[VariableNames.LOCALE_ENABLED]: true,
-		[VariableNames.LOCALE_ROUTING_ENABLED]: false,
+		[VariableNames.LOCALE_ROUTING_ENABLED]: true,
 		[VariableNames.VERSIONED_STATIC_ROOT]: process.env.VERSIONED_STATIC_ROOT,
 		[VariableNames.STATIC_ROOT]: process.env.STATIC_ROOT,
 	},
@@ -32,8 +32,8 @@ const config = {
 		[URLNames.LOCALE]: `${process.env.VERSIONED_STATIC_ROOT}locale/{locale}.json`,
 	},
 	properties: {
-		[PropertyNames.DEFAULT_LOCALE]: 'en-gb',
-		[PropertyNames.AVAILABLE_LOCALES]: ['en-gb'],
+		[PropertyNames.DEFAULT_LOCALE]: 'de-de',
+		[PropertyNames.AVAILABLE_LOCALES]: ['en-gb', 'de-de'],
 	},
 };
 

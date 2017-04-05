@@ -3,7 +3,8 @@
 
 <template>
 	<div>
-		<h2>HomePage</h2>
+		<h2>{{$t('test2.lifehammer')}}</h2>
+		<router-link :to="$localize({ name: 'about'})">About</router-link>
 	</div>
 </template>
 

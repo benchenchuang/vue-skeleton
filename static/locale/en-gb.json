@@ -1,2 +1,6 @@
 {
+  "test": "test EN",
+  "test2": {
+	"lifehammer": "lifehammer"
+  }
 }
