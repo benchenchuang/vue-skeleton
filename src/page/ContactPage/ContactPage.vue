@@ -4,7 +4,7 @@
 <template>
 	<div>
 		<h2>ContactPage</h2>
-			<router-link :to="$localize({ name: 'about'})">About</router-link>
+			<router-link :to="$localize({ name: PageNames.ABOUT })">About</router-link>
 	</div>
 </template>
 

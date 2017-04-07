@@ -8,16 +8,16 @@ export default [
 	{
 		path: Pages.HOME,
 		component: HomePage,
-		name: 'home',
+		name: PageNames.HOME,
 	},
 	{
 		path: Pages.ABOUT,
 		component: AboutPage,
-		name: 'about',
+		name: PageNames.ABOUT,
 	},
 	{
 		path: Pages.CONTACT,
 		component: ContactPage,
-		name: 'contact',
+		name: PageNames.CONTACT,
 	},
 ];

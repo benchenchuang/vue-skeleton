@@ -4,7 +4,7 @@
 <template>
 	<div>
 		<h2>{{$t('test')}}</h2>
-		<router-link :to="$localize({ name: 'home'})">Home</router-link>
+		<router-link :to="$localize({ name: PageNames.HOME })">Home</router-link>
 	</div>
 </template>
 
