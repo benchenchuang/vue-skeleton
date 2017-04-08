@@ -5,7 +5,7 @@
 	<div>
 		<h2>{{$t('test2.lifehammer')}}</h2>
 		<p>{{ PageNames.HOME}}</p>
-		<router-link :to="$localize({ name: PageNames.ABOUT })">About</router-link>
+		<router-link :to="createPath(Pages.ABOUT, {[Params.NAME]: 'hendrikjan'})">About</router-link>
 	</div>
 </template>
 

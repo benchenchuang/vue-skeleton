@@ -1,5 +1,5 @@
 export default {
 	HOME: '/',
 	CONTACT: '/contact',
-	ABOUT: '/about',
+	ABOUT: '/about/:name',
 };

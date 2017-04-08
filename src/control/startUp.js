@@ -4,6 +4,7 @@ import VueExposePlugin from 'util/VueExposePlugin';
 import { URLNames, PropertyNames, VariableNames } from 'data/enum/configNames';
 import PageNames from 'data/enum/PageNames';
 import Pages from 'data/enum/Pages';
+import Params from 'data/enum/Params';
 import { createPath } from 'util/routeUtils';
 
 const initPlugins = () => {
@@ -15,6 +16,7 @@ const initPlugins = () => {
 		VariableNames,
 		PageNames,
 		Pages,
+		Params,
 		createPath,
 	});
 
