@@ -2,6 +2,6 @@
 <script src="./Icon.js"></script>
 
 <template>
-	<span :class="$style.container" v-html="icon"></span>
+	<span :class="$style.container" v-html="icon" v-if v-bind.bla></span>
 </template>
 
