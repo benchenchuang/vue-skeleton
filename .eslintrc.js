@@ -2,14 +2,16 @@
 
 module.exports = {
 	root: true,
-	parser: 'babel-eslint',
 	parserOptions: {
 		sourceType: 'module'
 	},
 	env: {
 		browser: true,
 	},
-	extends: 'airbnb-base',
+	extends: [
+		'airbnb-base',
+		'plugin:vue/recommended'
+	],
 	plugins: [
 		'html',
 		'import'
@@ -37,5 +39,12 @@ module.exports = {
 		}],
 		'max-len': ['error', 120],
 		'no-param-reassign': 0,
+		'comma-dangle': ['error', {
+			arrays: 'always-multiline',
+			objects: 'always-multiline',
+			imports: 'always-multiline',
+			exports: 'always-multiline',
+			functions: 'never'
+		}]
 	}
 };
