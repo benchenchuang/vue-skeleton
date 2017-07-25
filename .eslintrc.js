@@ -10,7 +10,6 @@ module.exports = {
 		'plugin:vue/recommended'
 	],
 	plugins: [
-		'html',
 		'import'
 	],
 	settings: {
@@ -42,6 +41,7 @@ module.exports = {
 			imports: 'always-multiline',
 			exports: 'always-multiline',
 			functions: 'never'
-		}]
+		}],
+		'vue/no-invalid-v-if': 'error'
 	}
 };

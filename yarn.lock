@@ -2360,12 +2360,12 @@ eslint-plugin-import@^2.2.0:
     minimatch "^3.0.3"
     read-pkg-up "^2.0.0"
 
-eslint-plugin-vue@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-3.1.1.tgz#9bf9d8d4b482ff74e7e8b9760151ea53ba0ee06c"
+eslint-plugin-vue@^3.1.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-3.5.1.tgz#2ccd4aa445c817ca0b42df901cec776c33f38c28"
   dependencies:
     requireindex "^1.1.0"
-    vue-eslint-parser "^1.1.0-6"
+    vue-eslint-parser "^1.1.0-7"
 
 eslint-scope@^3.7.1:
   version "3.7.1"
@@ -6964,7 +6964,7 @@ vrsource-tslint-rules@^5.1.0:
     chokidar-cli "~1.2.0"
     tslint "~5.1.0"
 
-vue-eslint-parser@^1.1.0-6:
+vue-eslint-parser@^1.1.0-7:
   version "1.1.0-7"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-1.1.0-7.tgz#fd29030c6a1ec221ed173257072bc2359235be8d"
   dependencies:
